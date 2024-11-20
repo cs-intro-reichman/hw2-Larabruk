@@ -2,20 +2,17 @@
 public class CalcPi {
 	public static void main(String [] args) { 
 	    int numberOfTerms = Integer.parseInt(args[0]);
-		double sum = 0;
-		double odd = 3;
-		
+		double sum = 0.0;
 
-		for (int i = 0; i < numberOfTerms; i++){
-			odd = 1 / odd;
-			double newOdd = odd + 2;
-			
-			for (int j = 0; j < numberOfTerms; j++){
-			sum =+ odd;
-			}
+		for (double i = 0; i < numberOfTerms; i++){
+			if (i % 2 == 0){
+				sum += 1 / (2 * i + 1);
+			} else { 
+				sum += -1 / (2 * i + 1);
+			}	
 		}
-
+		sum *= 4;
 		System.out.println("pi according to Java: " + Math.PI);
-		System.out.println("pi, approximated: " + (1 - sum));
+		System.out.println("pi, approximated: " + sum);
 	}
 }
