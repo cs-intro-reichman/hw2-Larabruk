@@ -15,7 +15,7 @@ public class Cheers {
                 System.out.println("Give me an " + UpperCaseWord.charAt(i) +": " + UpperCaseWord.charAt(i) + "!" );
             }
         }
-            System.out.println("What does it spell?");
+            System.out.println("What does that spell?");
             for(int j = 0; j < num; j++){
                 System.out.println(UpperCaseWord + "!!!");
             }
