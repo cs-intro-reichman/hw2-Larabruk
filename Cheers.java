@@ -10,7 +10,7 @@ public class Cheers {
             for (int i = 0; i < word.length(); i++){
                 c = UpperCaseWord.charAt(i);
                 if (changeToAn.indexOf(c) == -1){
-                System.out.println("Give me a " + UpperCaseWord.charAt(i) +": " + UpperCaseWord.charAt(i) + "!" );
+                System.out.println("Give me a  " + UpperCaseWord.charAt(i) +": " + UpperCaseWord.charAt(i) + "!" );
             } else {
                 System.out.println("Give me an " + UpperCaseWord.charAt(i) +": " + UpperCaseWord.charAt(i) + "!" );
             }
