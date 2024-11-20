@@ -26,11 +26,11 @@ public class Collatz {
 					System.out.print(currentSeed + " ");
 					counter++;
 				}
-					if (currentSeed == 1){
-						System.out.println("(" + (counter + 1) + ")");
-					} else {
-						System.out.println("(" + counter + ")");
-					}
+			if (i == 1){
+				System.out.println("(" + (counter + 1) + ")");
+			} else {
+				System.out.println("(" + counter + ")");
+			}
 			}
 			System.out.print("Every one of the first " + seedN + " hailstone sequences reached 1.");
 		}
