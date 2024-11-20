@@ -27,15 +27,15 @@ public class Collatz {
 					counter++;
 				}
 					if (currentSeed == 1){
-						System.out.println(" (" + (counter + 1) + ")");
+						System.out.println("(" + (counter + 1) + ")");
 					} else {
-						System.out.println(" (" + counter + ")");
+						System.out.println("(" + counter + ")");
 					}
 			}
-			System.out.print("Every one of the first " + seedN + " hailsone sequences reached 1.");
+			System.out.print("Every one of the first " + seedN + " hailstone sequences reached 1.");
 		}
 		if (mode.equals(concise)){
-			System.out.println("Every one of the first " + seedN + " hailsone sequences reached 1.");
+			System.out.println("Every one of the first " + seedN + " hailstone sequences reached 1.");
 		}
 	}	
 }
